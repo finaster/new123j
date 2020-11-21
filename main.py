@@ -1,6 +1,5 @@
-# 1. Создать функцию, которая выводит на экран цифру, введенную пользоватлем в консоли.
-def function1() :
-    print('Введите число : ')
-    Value = int(input())
-    print("Вы ввели число :",Value)
-function1()
+def Values():
+    a, b, c, d, f = int(input()), int(input()), int(input()), int(input()), int(input())
+    print('Сумма введенных значений:', a+b+c+d+f)
+print('Введите значения:')
+Values()
