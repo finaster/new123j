@@ -1,13 +1,13 @@
 def select1(a, b):
     if not a and not b :
-        print('Значения не введены. Повторите Попытку :)')
+        print('Значения не введены.')
     else :
         print("Результат =", a * b )
 
 
 def select2(a, b):
     if not a and not b :
-        print('Значения не введены. Повторите попытку :)')
+        print('Значения не введены.')
     elif (b == 0):
         print('На ноль делить НЕЛЬЗЯ!')
     else :
@@ -21,7 +21,7 @@ def select3():
 userChoice = 0
 a, b = False, False
 
-print('Меню:')
+print('функция:')
 
 print('1. Введите значения A и B')
 print('2. Умножить значения A и B')
@@ -38,12 +38,12 @@ while userChoice != 4:
         elif userChoice == 3:
             select2(a,b)
         elif userChoice == 4 :
-            print('Был произведен выход из программы. Ещё увидимся :)')
+            print('Exit... ')
             break
         else:
-            print('Ошибка. Такой опции не существует. Повторите попытку :)')
+            print(' !ERROR 404! ')
 
-        print('Меню:')
+        print('функция:')
         print('1. Введите значения A и B')
         print('2. Умножить значения A и B')
         print('3. Разделить A на B')
