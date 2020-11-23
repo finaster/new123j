@@ -4,3 +4,8 @@ def function1() :
     Value = int(input())
     print("Вы ввели число :",Value)
 function1()
+
+def function1():
+    value = int(input('Введите число : '))
+    print("Вы ввели число :", value)
+function1()
